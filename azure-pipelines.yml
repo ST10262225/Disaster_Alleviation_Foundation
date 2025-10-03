@@ -1,0 +1,8 @@
+trigger:
+- main   # run pipeline when I push to 'main' branch
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo "Hello, the pipeline is working!"
